@@ -3,7 +3,7 @@ Usage:
     version: "3"
     services:
         mailcatcher:
-            build: https://github.com/maxdoom-com/docker-compose-mailcatcher2.git
+            build: https://github.com/maxdoom-com/docker-compose-new-mailcatcher.git
             env_file: .env
             ports:
                 - "8080:8080"
